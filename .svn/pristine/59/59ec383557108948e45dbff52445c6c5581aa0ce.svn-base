@@ -1,0 +1,9 @@
+package com.itheima.bos.service;
+
+import com.itheima.bos.entity.User;
+
+public interface IUserService {
+    public User login(User model);
+
+    void updateUser(User user);
+}

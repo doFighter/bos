@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bos-web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa72428b-b27a-4128-9419-72e0726eb3aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src/main/java/com/itheima" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src/main/java/com/itheima/bos" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src/main/java/com/itheima/bos/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-utils/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/filter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/interceptor" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/listener" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/resources/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/function.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/function_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/role_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/userindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/userinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/admin/userlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/region.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/staff.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/common" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/common/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/common/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/portal" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/portal/bug.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/portal/daiban.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/portal/gonggao.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/portal/yujing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/diaodu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/quickworkorder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/workorderimport.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/css/style_grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/easyui" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/easyui/01-layout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/easyui/02-accordion.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/easyui/03-tabs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/bg_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/bg_login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/bgx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/header_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/input_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/online.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/images/user_logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/easyloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/ext" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/ext/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/ext/jquery.portal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/ext/portal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/locale" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/locale/easyui-lang-zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.combogrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.combotree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.datagrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.datebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.datetimebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.linkbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.menubutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.messager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.numberspinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.propertygrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.searchbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.splitbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.timespinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.treegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.validatebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/plugins/jquery.window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/easyloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.datebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.linkbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.propertygrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/src/jquery.window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/black/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/bootstrap/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/mini_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/mini_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/mini_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/easyui/themes/metro/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/jquery.ztree.all-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/js/ztree/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/admin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/association_customer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/association_subarea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/decidedzone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/decidedzone_subarea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/menu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/region.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/staff.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/subarea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/json/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/validatecode.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java" afterDir="true" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZG9HIPdoVg99uoNaJPXuh8qDtM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-web\src\main\webapp\WEB-INF" />
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-web\src\main\webapp" />
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="bos-web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat " ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/bos_web_war/" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="bos-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/bos_web_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_bos-parent" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4678" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bos-web:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" myAutoUpdateAfterCommit="true" cleanupOnStartRun="true">
+    <configuration>C:\Users\Fighter\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\coding\SSH\BOS1\bos-parent" />
+          <option name="myCopyRoot" value="D:\coding\SSH\BOS1\bos-parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\coding\SSH\BOS1\bos-parent" />
+          <option name="myCopyRoot" value="D:\coding\SSH\BOS1\bos-parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa72428b-b27a-4128-9419-72e0726eb3aa" name="Default Changelist" comment="" />
+      <created>1584454474241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584454474241</updated>
+      <workItem from="1584454478590" duration="2641000" />
+      <workItem from="1584457246486" duration="3075000" />
+      <workItem from="1584491240396" duration="2249000" />
+      <workItem from="1584493918026" duration="2755000" />
+      <workItem from="1584496724190" duration="3616000" />
+      <workItem from="1584500399360" duration="934000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="26" key="#Deployment" timestamp="1584496677950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="272" y="26" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1584496677950" />
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584455768658">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584455768658" />
+    <state x="223" y="0" key="CommitChangelistDialog2" timestamp="1584500311619">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="223" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584500311619" />
+    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1584500763158">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584500763158" />
+    <state width="905" height="171" key="GridCell.Tab.0.bottom" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state width="905" height="171" key="GridCell.Tab.0.center" timestamp="1584455920071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584455920071" />
+    <state width="905" height="171" key="GridCell.Tab.0.left" timestamp="1584455920071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584455920071" />
+    <state width="905" height="171" key="GridCell.Tab.0.right" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state width="905" height="171" key="GridCell.Tab.1.bottom" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state width="905" height="171" key="GridCell.Tab.1.center" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state width="905" height="171" key="GridCell.Tab.1.left" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state width="905" height="171" key="GridCell.Tab.1.right" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state width="905" height="171" key="GridCell.Tab.2.bottom" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state width="905" height="171" key="GridCell.Tab.2.center" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state width="905" height="171" key="GridCell.Tab.2.left" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state width="905" height="171" key="GridCell.Tab.2.right" timestamp="1584455920072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1584455920072" />
+    <state x="376" y="77" key="RollbackChangesDialog" timestamp="1584501430720">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="376" y="77" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584501430720" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1584500768031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584500768031" />
+    <state x="499" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584497819410">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1584497819410" />
+    <state x="57" y="68" key="new project wizard" timestamp="1584454765488">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="68" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584454765488" />
+    <state x="548" y="201" key="svn.propertyDialog" timestamp="1584497893624">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="548" y="201" key="svn.propertyDialog/0.0.1366.728@0.0.1366.728" timestamp="1584497893624" />
+    <state x="466" y="55" key="svn.repositoryBrowser" timestamp="1584501108473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="55" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1584501108473" />
+    <state x="488" y="271" key="svn.upgradeDialog" timestamp="1584501117799">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="271" key="svn.upgradeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584501117799" />
+    <state x="586" y="189" key="svn4idea.delete.options" timestamp="1584500229178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="586" y="189" key="svn4idea.delete.options/0.0.1366.728@0.0.1366.728" timestamp="1584500229178" />
+    <state x="490" y="36" key="svn4idea.import.options" timestamp="1584499304048">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="490" y="36" key="svn4idea.import.options/0.0.1366.728@0.0.1366.728" timestamp="1584499304048" />
+    <state x="491" y="175" key="svn4idea.mkdir.options" timestamp="1584500238388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="175" key="svn4idea.mkdir.options/0.0.1366.728@0.0.1366.728" timestamp="1584500238388" />
+  </component>
+</project>

@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bos-web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa72428b-b27a-4128-9419-72e0726eb3aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/ICustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/INoticebillDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/IWorkbillDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/IWorkordermanageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/impl/NoticebillDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/impl/WorkbillDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/impl/WorkordermanageDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Customer.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Function.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Noticebill.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Noticebill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Role.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Workbill.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Workbill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Workordermanage.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Workordermanage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/INoticebillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/IWorkordermanageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/impl/NoticebillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/impl/WorkordermanageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/realm" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/realm/BOSRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/CustomerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/NoticebillAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/WorkordermanageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/easyui/07-datagrid-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/unauthorized.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/test/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/test/java/com/itheima" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/test/java/com/itheima/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/test/java/com/itheima/test/POITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-web/src/test/java/com/itheima/test/Pinyin4jTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/base/IBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/base/IBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-dao/src/main/java/com/itheima/bos/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Decidedzone.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/Decidedzone.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/IDecidedzoneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/IDecidedzoneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/ISubareaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/ISubareaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/impl/DecidedzoneServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/impl/DecidedzoneServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/impl/SubareaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-service/src/main/java/com/itheima/bos/service/impl/SubareaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/StaffAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/SubareaAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/SubareaAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/java/com/itheima/bos/web/action/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/lib/poi-3.9-20121203.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/lib/poi-3.9-20121203.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/quickworkorder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/pages/qupai/quickworkorder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bos32@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bos32@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bos32@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bos32: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bos-parent" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jspx File" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZG9HIPdoVg99uoNaJPXuh8qDtM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="46085f11-5506-4060-8d7e-d1cef785036d" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bos-entity/src/main/java/com/itheima/bos/entity" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.itheima.bos.entity" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.itheima.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-entity\src\main\java\com\itheima\bos\entity" />
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-web\src\main\webapp\js\ocupload" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-entity\src\main\java\com\itheima\bos\entity" />
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-web\src\main\webapp\easyui" />
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-utils\src\main\java\com\itheima\bos\utils" />
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-web\src\main\webapp\json" />
+      <recent name="D:\coding\SSH\BOS1\bos-parent\bos-web\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.bos.dao" />
+      <recent name="com.itheima.bos.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.bos-web">
+    <configuration name="CustomerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bos-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.CustomerTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POITest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bos-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.POITest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pinyin4jTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bos-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.Pinyin4jTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bos-web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat " ALTERNATIVE_JRE_ENABLED="false">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="bos-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/bos_web_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_bos-parent" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4678" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bos-web:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerTest.test1" />
+        <item itemvalue="JUnit.Pinyin4jTest.test01" />
+        <item itemvalue="JUnit.POITest.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.17233385" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" myAutoUpdateAfterCommit="true" cleanupOnStartRun="true">
+    <configuration>C:\Users\Fighter\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="UPDATE_DEPTH" value="infinity" />
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\coding\SSH\BOS1\bos-parent" />
+          <option name="myCopyRoot" value="D:\coding\SSH\BOS1\bos-parent" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\coding\SSH\BOS1\bos-parent" />
+          <option name="myCopyRoot" value="D:\coding\SSH\BOS1\bos-parent\bos-dao\src\main\java\com\itheima\bos\dao\base" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\coding\SSH\BOS1\bos-parent" />
+          <option name="myCopyRoot" value="D:\coding\SSH\BOS1\bos-parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa72428b-b27a-4128-9419-72e0726eb3aa" name="Default Changelist" comment="" />
+      <created>1584454474241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584454474241</updated>
+      <workItem from="1584454478590" duration="2641000" />
+      <workItem from="1584457246486" duration="3075000" />
+      <workItem from="1584491240396" duration="2249000" />
+      <workItem from="1584493918026" duration="2755000" />
+      <workItem from="1584496724190" duration="3616000" />
+      <workItem from="1584500399360" duration="31840000" />
+      <workItem from="1584586301332" duration="24304000" />
+      <workItem from="1584672653744" duration="16303000" />
+      <workItem from="1584753861038" duration="2361000" />
+      <workItem from="1584838413034" duration="26768000" />
+      <workItem from="1584928385158" duration="18156000" />
+      <workItem from="1585017349013" duration="3022000" />
+      <workItem from="1585104466535" duration="9348000" />
+      <workItem from="1585189358404" duration="26413000" />
+      <workItem from="1585279607872" duration="12892000" />
+      <workItem from="1585478234581" duration="3266000" />
+      <workItem from="1585569773440" duration="9397000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1584502634069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584502634069</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1584552055328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584552055328</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1584552960340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584552960340</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1584630237223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584630237223</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1584717646033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584717646033</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1584887226999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584887226999</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1584980177901</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584980177901</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="26" key="#Deployment" timestamp="1584496677950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="272" y="26" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1584496677950" />
+    <state x="275" y="26" key="#Inspections" timestamp="1584549954797">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="26" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1584549954797" />
+    <state x="275" y="26" key="#Project_Structure" timestamp="1585214220729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="26" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1585214220729" />
+    <state x="329" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584711500630">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="329" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584711500630" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1585579821616">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585579821616" />
+    <state x="417" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585213963773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="417" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1585213963773" />
+    <state x="445" y="280" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1585212166880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="445" y="280" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1366.728@0.0.1366.728" timestamp="1585212166880" />
+    <state x="353" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1585212220170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="353" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1585212220170" />
+    <state x="223" y="0" key="CommitChangelistDialog2" timestamp="1585211299520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="223" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585211299520" />
+    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1585211236774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585211236774" />
+    <state width="1070" height="243" key="GridCell.Tab.0.bottom" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.0.center" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.0.left" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.0.right" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.1.bottom" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.1.center" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.1.left" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.1.right" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.2.bottom" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.2.center" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.2.left" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="243" key="GridCell.Tab.2.right" timestamp="1585582274371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="243" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1585582274371" />
+    <state width="1070" height="176" key="GridCell.Tab.3.bottom" timestamp="1585573966196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="176" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585573966196" />
+    <state width="1070" height="176" key="GridCell.Tab.3.center" timestamp="1585573966196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="176" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1585573966196" />
+    <state width="1070" height="176" key="GridCell.Tab.3.left" timestamp="1585573966195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="176" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1585573966195" />
+    <state width="1070" height="176" key="GridCell.Tab.3.right" timestamp="1585573966196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="176" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1585573966196" />
+    <state width="1070" height="176" key="GridCell.Tab.4.bottom" timestamp="1585573969326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="176" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585573969326" />
+    <state width="1070" height="176" key="GridCell.Tab.4.center" timestamp="1585573969326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="176" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1585573969326" />
+    <state width="1070" height="176" key="GridCell.Tab.4.left" timestamp="1585573969325">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="176" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1585573969325" />
+    <state width="1070" height="176" key="GridCell.Tab.4.right" timestamp="1585573969326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1070" height="176" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1585573969326" />
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1584961398682">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1584961398682" />
+    <state x="376" y="77" key="RollbackChangesDialog" timestamp="1584501430720">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="376" y="77" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584501430720" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1585212173299">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585212173299" />
+    <state x="482" y="145" key="chooseDestDirectoryDialog" timestamp="1585212224828">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="145" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1585212224828" />
+    <state x="499" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584630087262">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1584630087262" />
+    <state x="450" y="82" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585213974370">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="450" y="82" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1585213974370" />
+    <state x="57" y="68" key="new project wizard" timestamp="1584754189706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="68" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584754189706" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1584869950719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584869950719" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585579813525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585579813525" />
+    <state x="548" y="201" key="svn.propertyDialog" timestamp="1584497893624">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="548" y="201" key="svn.propertyDialog/0.0.1366.728@0.0.1366.728" timestamp="1584497893624" />
+    <state x="466" y="55" width="629" height="617" key="svn.repositoryBrowser" timestamp="1584531553693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="55" width="629" height="617" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1584531553693" />
+    <state x="488" y="271" key="svn.upgradeDialog" timestamp="1584531555478">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="271" key="svn.upgradeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584531555478" />
+    <state x="586" y="189" key="svn4idea.delete.options" timestamp="1584500229178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="586" y="189" key="svn4idea.delete.options/0.0.1366.728@0.0.1366.728" timestamp="1584500229178" />
+    <state x="490" y="36" key="svn4idea.import.options" timestamp="1584499304048">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="490" y="36" key="svn4idea.import.options/0.0.1366.728@0.0.1366.728" timestamp="1584499304048" />
+    <state x="491" y="175" key="svn4idea.mkdir.options" timestamp="1584500238388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="175" key="svn4idea.mkdir.options/0.0.1366.728@0.0.1366.728" timestamp="1584500238388" />
+  </component>
+</project>

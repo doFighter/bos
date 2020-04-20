@@ -1,0 +1,9 @@
+package com.itheima.bos.service;
+
+import com.itheima.bos.entity.Staff;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+public interface IStaffService {
+    void save(Staff model);
+}
