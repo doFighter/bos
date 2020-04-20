@@ -1,0 +1,101 @@
+package com.itheima.bos.dao.base.impl;
+
+import com.itheima.bos.dao.base.IBaseDao;
+import com.itheima.bos.utils.PageBean;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.criterion.DetachedCriteria;
+import org.hibernate.criterion.Projections;
+import org.springframework.context.annotation.ImportResource;
+import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+
+import javax.annotation.Resource;
+import java.io.Serializable;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.util.List;
+
+/**
+ *  持久层通用实现
+ * @param <T>
+ */
+public class BaseDaoImpl<T> extends HibernateDaoSupport implements IBaseDao<T> {
+    // 代表某个实体类的类型
+    private Class<T> entityClass;
+
+    @Resource
+    public void setMySessionFactory(SessionFactory sessionFactory){
+        super.setSessionFactory(sessionFactory);
+    }
+
+    // 在父类的（BaseDaoImpl）的构造方法中动态获得entityClass
+    public BaseDaoImpl() {
+        ParameterizedType superClass = (ParameterizedType) this.getClass().getGenericSuperclass();
+        // 获得父类上声明的泛型数组
+        Type[] actualTypeArguments = superClass.getActualTypeArguments();
+        entityClass = (Class<T>) actualTypeArguments[0];
+    }
+
+    @Override
+    public void save(T entity) {
+        this.getHibernateTemplate().save(entity);
+    }
+
+    @Override
+    public void update(T entity) {
+        this.getHibernateTemplate().update(entity);
+    }
+
+    @Override
+    public void saveOrUpdate(T entity) {
+        this.getHibernateTemplate().saveOrUpdate(entity);
+    }
+
+    @Override
+    public void delete(T entity) {
+        this.getHibernateTemplate().delete(entity);
+    }
+
+    @Override
+    public T findById(Serializable id) {
+
+        return this.getHibernateTemplate().get(entityClass,id);
+    }
+
+    /**
+     *  查询所有
+     * @return
+     */
+    @Override
+    public List<T> findAll() {
+//        List<T> lists = this.getHibernateTemplate().findByExample(null);
+        Session session = getSessionFactory().getCurrentSession();
+        String sql = "from "+entityClass.getSimpleName();
+        Query query = session.createQuery(sql);
+        return query.list();
+//        return lists;
+    }
+
+    /**
+     *  通用分页查询方法
+     * @param pageBean
+     */
+    @Override
+    public void pageQuery(PageBean pageBean) {
+        int currentPage = pageBean.getCurrentPage();
+        int pageSize = pageBean.getPageSize();
+        DetachedCriteria detachedCriteria = pageBean.getDetachedCriteria();
+        // 获取记录总数
+        detachedCriteria.setProjection(Projections.rowCount());// 指定 hibernate 查询方法，按count查询
+        List<Long> countList = (List<Long>) this.getHibernateTemplate().findByCriteria(detachedCriteria);
+        Long count = countList.get(0);
+        pageBean.setTotal(count.intValue());
+        // 获取当前页记录
+        detachedCriteria.setProjection(null); // 将查询方法设置回来，使之查询数据，而非总数count
+        int firstResult = (currentPage-1)*pageSize;
+        int maxResults = pageSize;
+        List rows = this.getHibernateTemplate().findByCriteria(detachedCriteria,firstResult,maxResults);
+        pageBean.setRows(rows);
+    }
+}
